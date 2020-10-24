@@ -1,0 +1,29 @@
+[package]
+name = "cutedit"
+version = "0.1.0"
+authors = ["idlesong <idlesong@gmail.com>"]
+edition = "2018"
+
+# [dependencies.gtk]
+# features = ["v3_16"]
+# version = "0.6.0"
+
+[dependencies]
+gtk = "0.6.0"
+gdk = "0.10.0"
+pango = "0.6.0"
+gio = "0.6.0"
+
+horrorshow = "0.6.2"
+webkit2gtk = "0.6.0"
+pulldown-cmark = "^0.1.0"
+tiny-keccak = "1.4.0"
+
+glib = "0.7.0"
+
+# soup-sys = "0.8.0"
+# gtk-source-sys = "0.8.0"
+sourceview = "0.6.0"
+# [dependencies.sourceview]
+# features = ["v3_16"]
+# version = "0.6.0"
